@@ -1,18 +1,51 @@
 # portfolio site
 
+## SETUP telepítések
+
+## Ellenőrzés, sikeres-e a telepítés
+### VsCode meg kell nyitni a felső menüben, egy terminált.
+### GIT ellenőrzése:
+git -v
+
+## Nodejs szerver ellenőrzése:
+node - v
+
+### NPM csomagkezelő ellenőrzése:
+npm -v
+
 ## Git verziokezeles
 # git init
 # git add README.md
 # git commit -m "first commit"
 # git branch -M main
-# git remote add origin https://github.com/fedoroveszter
+# git remote add origin https://github.com/fedoroveszter/portfoliom.git
 # git push -u origin main
 
 ## PUSH amikor már a fenti setup készen van.
-# git remote add origin https://github.com/fedoroveszter
+# git remote add origin https://github.com/fedoroveszter/portfoliom.git
 # git branch -M main
 # git push -u origin main
 
 ## PULL amikor már más valaki módosított a gileokat.
 # git pull origin main
+
+# Tech stack:
+- HTML
+- CSS
+- JavaScript
+- React
+- Node.js
+- Next.js (npx create-next-app@latest)
+ 
+## Next.js használata, telepítése (mappa üres legyen ahová telepíteni akarjuk):
+
+### terminálbe be kell írni: 
+
+npx create-next-app@latest
+
+Az elő kérdésre; hová akarod telpíteni? egy darab . kerül
+
+Utána mindenre enter
+
+
 
