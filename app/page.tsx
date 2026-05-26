@@ -1,17 +1,30 @@
-import Image from "next/image";
+"use client";
 
-import Alert from "./alert";
+import Button from "react-bootstrap/Button";
+
+import Modal from "react-bootstrap/Modal";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Alert
-          type="success"
-          title="Success!"
-          message="Your action was successful."
-        />
-      </main>
+    <div
+      className="modal show"
+      style={{ display: "block", position: "initial" }}
+    >
+      <Modal.Dialog>
+        <Modal.Header closeButton>
+          <Modal.Title>Modal title</Modal.Title>
+        </Modal.Header>
+
+        <Modal.Body>
+          <p>Modal body text goes here.</p>
+        </Modal.Body>
+
+        <Modal.Footer>
+          <Button variant="secondary">Close</Button>
+
+          <Button variant="primary">Save changes</Button>
+        </Modal.Footer>
+      </Modal.Dialog>
     </div>
   );
 }

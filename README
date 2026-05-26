@@ -47,5 +47,6 @@ Az elő kérdésre; hová akarod telpíteni? egy darab . kerül
 
 Utána mindenre enter
 
-
+## np telepítők:
+npm install bootstrap@5.3.8
 
