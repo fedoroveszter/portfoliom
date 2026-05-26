@@ -16,7 +16,7 @@ export default function Home() {
         </Modal.Header>
 
         <Modal.Body>
-          <p>Modal body text goes here.</p>
+          <p className="modal-body-text">Sziasztok Eszti vagyok és azt szereném, hogy itt jelenjenek meg a modelljeim.</p>
         </Modal.Body>
 
         <Modal.Footer>
